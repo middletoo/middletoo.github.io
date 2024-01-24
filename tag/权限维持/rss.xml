@@ -9,6 +9,7 @@
         <lastBuildDate>Mon, 22 Jan 2024 00:30:34 +0800</lastBuildDate>
         <category>权限维持</category>
         <category>我的博客</category>
+        <category>域控提权</category>
         <item>
             <guid isPermalink="true">http://example.com/2024/01/22/comm/%E5%AE%89%E5%85%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/</guid>
             <title>win权限维持/安全描述符权限维持</title>
