@@ -1,0 +1,6 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+
+Sitemap: https://zlte.netlify.app/sitemap.xml
+Sitemap: https://zlte.netlify.app/baidusitemap.xml
