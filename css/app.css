@@ -4197,7 +4197,6 @@ code,
   word-wrap: break-word;
 }
 .highlight {
-  padding-top: 30px;
   position: relative;
   overflow: hidden;
   border-radius: 0.5rem;
