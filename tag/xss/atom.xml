@@ -4,12 +4,12 @@
     <title>竹林寺 • Posts by &#34;xss&#34; tag</title>
     <link href="https://zlte.netlify.app" />
     <updated>2024-01-28T18:33:08.815Z</updated>
-    <category term="域控提权" />
-    <category term="权限维持" />
     <category term="thinkphp反序列化" />
     <category term="redis缓存" />
     <category term="rce" />
+    <category term="权限维持" />
     <category term="xss" />
+    <category term="域控提权" />
     <entry>
         <id>https://zlte.netlify.app/2024/01/29/skill/xss-skill/</id>
         <title>xss深度利用/xss技巧</title>

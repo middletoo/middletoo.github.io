@@ -7,12 +7,12 @@
         <language>zh-CN</language>
         <pubDate>Mon, 29 Jan 2024 02:33:08 +0800</pubDate>
         <lastBuildDate>Mon, 29 Jan 2024 02:33:08 +0800</lastBuildDate>
-        <category>域控提权</category>
-        <category>权限维持</category>
         <category>thinkphp反序列化</category>
         <category>redis缓存</category>
         <category>rce</category>
+        <category>权限维持</category>
         <category>xss</category>
+        <category>域控提权</category>
         <item>
             <guid isPermalink="true">https://zlte.netlify.app/2024/01/29/skill/xss-skill/</guid>
             <title>xss深度利用/xss技巧</title>

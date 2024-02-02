@@ -7,12 +7,12 @@
         <language>zh-CN</language>
         <pubDate>Mon, 22 Jan 2024 00:30:34 +0800</pubDate>
         <lastBuildDate>Mon, 22 Jan 2024 00:30:34 +0800</lastBuildDate>
-        <category>域控提权</category>
-        <category>权限维持</category>
         <category>thinkphp反序列化</category>
         <category>redis缓存</category>
         <category>rce</category>
+        <category>权限维持</category>
         <category>xss</category>
+        <category>域控提权</category>
         <item>
             <guid isPermalink="true">https://zlte.netlify.app/2024/01/22/comm/%E5%AE%89%E5%85%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6%E6%9D%83%E9%99%90%E7%BB%B4%E6%8C%81/</guid>
             <title>win权限维持/安全描述符权限维持</title>
