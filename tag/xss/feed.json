@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "竹林寺 • All posts by \"xss\" tag",
+    "description": "请我喝咖啡！ψ(｀∇´)ψ",
+    "home_page_url": "https://zlte.netlify.app",
+    "items": [
+        {
+            "id": "https://zlte.netlify.app/2024/01/29/skill/xss-skill/",
+            "url": "https://zlte.netlify.app/2024/01/29/skill/xss-skill/",
+            "title": "xss深度利用/xss技巧",
+            "date_published": "2024-01-28T18:33:08.815Z",
+            "content_html": "<p>正在施工中.....</p>\n",
+            "tags": [
+                "xss"
+            ]
+        }
+    ]
+}
