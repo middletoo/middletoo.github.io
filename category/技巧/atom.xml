@@ -10,6 +10,7 @@
     <category term="xss" />
     <category term="域控提权" />
     <category term="权限维持" />
+    <category term="0Day" />
     <entry>
         <id>https://zlte.netlify.app/2024/02/02/skill/thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96redisrce/</id>
         <title>thinkphp反序列化redis_rce</title>

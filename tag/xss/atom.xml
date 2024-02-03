@@ -10,6 +10,7 @@
     <category term="xss" />
     <category term="域控提权" />
     <category term="权限维持" />
+    <category term="0Day" />
     <entry>
         <id>https://zlte.netlify.app/2024/01/29/skill/xss-skill/</id>
         <title>xss深度利用/xss技巧</title>

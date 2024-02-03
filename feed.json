@@ -5,6 +5,16 @@
     "home_page_url": "https://zlte.netlify.app",
     "items": [
         {
+            "id": "https://zlte.netlify.app/2024/02/04/life/thinkphp-0day/",
+            "url": "https://zlte.netlify.app/2024/02/04/life/thinkphp-0day/",
+            "title": "ThinkPHP6.1.4_RCE_0Day",
+            "date_published": "2024-02-03T16:30:34.000Z",
+            "content_html": "<div class=\"hbe hbe-container\" id=\"hexo-blog-encrypt\" data-wpm=\"Oh, this is an invalid password. Check and try again, please.\" data-whm=\"OOPS, these decrypted content may changed, but you can still have a look.\">\n  <script id=\"hbeData\" type=\"hbeData\" data-hmacdigest=\"bd408077b46db13f1f690a0316ca6ce56bebf7ff3b4f501d96901f645669d4a4\">d2aeb51ca96e555d52c2a3418f30b1f3d9ab4a476fcff0625fa43e65e94822b8d4b43b2d0a6b60059e03f2276ab6174eb6cbf2937f22ba6fddbe7e277b3db21e3e6286dcdb98798c2e6bd75b8d5a7d18be095fa449de6d2d69701812fe633e8797b284bc25c2777514354d537d6169afac0e40f9181c9383fb51ac56315760b2241c7c32296cc95e3a2a6f3c6c16e970a11e7ae504834899ffb50e6c2a605cc07aaf5e0e077b9bf38a0d3390d8e29e04fb71f5e9bd7468ec2ec8bc3b91a679900792844a698db67d71ae1883a112e1c806b4ffc63b24c0b61439803f580871f6e68df996eb5ea7510ccb803e7dc1fae8cf9a4c9da38b520e9adf86761ec7b11ec66afb62391a2ba304eee612552d0345db29b1aea8522fe9e523230f2a991e0e7ace4b226e123da792dbf5806155fcc1638f294222eb40d32cc2f4480cc948f98088ad8a48cf0ecf2ddbded04f09eb70a64d43457b6cca3eb21cdec83586acdc7c1f60875300b93089a7c326b84bbad090a9252b2cd1f9dba60a7abad4278b42a7912735d4394707c4880c9af14bf2b05006ca28a8df224e653f92ba427240daef44784e8bc6654b9f5ddceff83d37833819e5c3c4db930480671f1819014fc00647c004738978af3e48759ebbb1bd736f21b90e059cf00d6b35106f02b25715f8fc912635c44a5f503ee564570fdeeb3988941dd2d0bf6ccd87f4b61a7c8a6134bb07a9af8cd5d282b3e70ac09d0ff38f7c9b6eaeaf79db2b0daa82f42d46ec50d4e889e4e743499f7eafeecdf65f196d8c78bf16ca00a2589a3d5caf06597560bdbbddbc925b70b5f0c54184409cc3974cd1a9639925c6e1d6830f069a8e86ea5434ec559f8b0e523d843eaba6606d50ab6f2c850d94aa9cb423a83a71589d47d517e0033deb150834de10a8798ebbb0173e84e29214f892c3829397f31fd49bceb64a373c8e4e31d1b95544ffed2bf5d6dd76573b05332ee697ac933be764564cbf4db7d2efe2e79392e4ffd26883b94fd413817bddf037419c52545a40cffaf33aa19e82b0a6934b6ea643ec34d1098688c5ee5619f5ca37d70bfdbe0f8a</script>\n  <div class=\"hbe hbe-content\">\n    <div class=\"hbe hbe-input hbe-input-default\">\n      <input class=\"hbe hbe-input-field hbe-input-field-default\" type=\"password\" id=\"hbePass\">\n      <label class=\"hbe hbe-input-label hbe-input-label-default\" for=\"hbePass\">\n        <span class=\"hbe hbe-input-label-content hbe-input-label-content-default\">Hey, password is required here.</span>\n      </label>\n    </div>\n  </div>\n</div>\n<script data-pjax src=\"/lib/hbe.js\"></script><link href=\"/css/hbe.style.css\" rel=\"stylesheet\" type=\"text/css\">",
+            "tags": [
+                "0Day"
+            ]
+        },
+        {
             "id": "https://zlte.netlify.app/2024/02/02/skill/thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96redisrce/",
             "url": "https://zlte.netlify.app/2024/02/02/skill/thinkphp%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96redisrce/",
             "title": "thinkphp反序列化redis_rce",
